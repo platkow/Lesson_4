@@ -51,9 +51,15 @@ public class Car {
                             char countrySign = c.getCountrySign();
                             System.out.println(countryName + " - " + countrySign);
                         }
+                    } else {
+                        System.out.println("Trank capacity lower than 300 l.");
                     }
                 }
+            } else {
+                System.out.println("Automation gear not found.");
             }
+        } else {
+            System.out.println("This is not BMW.");
         }
     }
 }

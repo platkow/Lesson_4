@@ -89,16 +89,16 @@ public class Run {
         Car car1 = new Car(bmw1, false, taxiMarket, "medium", city);
         Car car2 = new Car(seat1, false, cargoMarket, "standard", city);
         Car car3 = new Car(bmw2, false, taxiMarket, "medium", travel);
-        Car car4 = new Car(ford1, true, busMarket, "medium", easyTransport);
+        Car car4 = new Car(ford1, false, busMarket, "medium", easyTransport);
         Car car5 = new Car(bmw3, true, businessMarket, "premium", family); //1
         Car car6 = new Car(ford2, false, taxiMarket, "standard", forCouple);
         Car car7 = new Car(bmw4, true, businessMarket, "premium", family);//2
         Car car8 = new Car(bmw1, false, cargoMarket, "premium", forCouple);
         Car car9 = new Car(bmw3, true, busMarket, "premium", city);//3
-        Car car10 = new Car(skoda2, true, transportMarket, "standard", family);
+        Car car10 = new Car(skoda2, false, transportMarket, "standard", family);
         Car car11 = new Car(skoda1, false, businessMarket, "premium", travel);
         Car car12 = new Car(alfaRomeo1, false, transportMarket, "medium", forCouple);
-        Car car13 = new Car(bmw1, true, transportMarket, "medium", travel);
+        Car car13 = new Car(bmw1, false, transportMarket, "medium", travel);
         Car car14 = new Car(bmw3, false, busMarket, "premium", easyTransport);
         Car car15 = new Car(bmw4, true, businessMarket, "premium", city);//4
 
